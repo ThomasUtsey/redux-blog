@@ -1,4 +1,6 @@
 import { combineReducers } from "redux";
+import postReducer from './postReducer'
+
 
 
 
@@ -6,5 +8,5 @@ import { combineReducers } from "redux";
 
 
 export default combineReducers({
-  placeHolder:() => 'placeHolder'
+  posts:postReducer
 });
